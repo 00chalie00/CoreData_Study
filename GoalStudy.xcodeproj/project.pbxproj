@@ -19,6 +19,8 @@
 		213C8F4922C1EB8100BF8945 /* CreateGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8F4822C1EB8100BF8945 /* CreateGoal.swift */; };
 		213C8F4B22C1ECE500BF8945 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8F4A22C1ECE500BF8945 /* GoalType.swift */; };
 		213C8F5022C21A6E00BF8945 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8F4F22C21A6E00BF8945 /* UIViewControllerExt.swift */; };
+		213C8F5222C3342000BF8945 /* UIViewExtKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8F5122C3342000BF8945 /* UIViewExtKeyboard.swift */; };
+		213C8F5422C3533200BF8945 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8F5322C3533200BF8945 /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		213C8F4822C1EB8100BF8945 /* CreateGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoal.swift; sourceTree = "<group>"; };
 		213C8F4A22C1ECE500BF8945 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		213C8F4F22C21A6E00BF8945 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		213C8F5122C3342000BF8945 /* UIViewExtKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtKeyboard.swift; sourceTree = "<group>"; };
+		213C8F5322C3533200BF8945 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				213C8F4F22C21A6E00BF8945 /* UIViewControllerExt.swift */,
+				213C8F5122C3342000BF8945 /* UIViewExtKeyboard.swift */,
+				213C8F5322C3533200BF8945 /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -308,7 +314,9 @@
 				213C8F4B22C1ECE500BF8945 /* GoalType.swift in Sources */,
 				213C8F1522C09F2200BF8945 /* GoalStudy.swift in Sources */,
 				213C8F1322C09F2200BF8945 /* AppDelegate.swift in Sources */,
+				213C8F5222C3342000BF8945 /* UIViewExtKeyboard.swift in Sources */,
 				213C8F5022C21A6E00BF8945 /* UIViewControllerExt.swift in Sources */,
+				213C8F5422C3533200BF8945 /* UIButtonExt.swift in Sources */,
 				213C8F1B22C09F2200BF8945 /* GoalStudy.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

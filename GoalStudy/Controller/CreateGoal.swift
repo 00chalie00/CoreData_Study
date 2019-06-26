@@ -16,9 +16,13 @@ class CreateGoal: UIViewController {
     @IBOutlet weak var longTerm: UIButton!
     @IBOutlet weak var nextBtn: UIButton!
     
+    var goalType: GoalType = .shortTrem
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        nextBtn.bindToKeyboard()
+        shortTerm.setSelectedColor()
+        longTerm.setDeselectedColor()
     }
     
     
@@ -27,11 +31,15 @@ class CreateGoal: UIViewController {
     }
     
     @IBAction func shortBtnPressed(_ sender: Any) {
-        
+        goalType = .shortTrem
+        shortTerm.setSelectedColor()
+        longTerm.setDeselectedColor()
     }
     
     @IBAction func longBtnPressed(_ sender: Any) {
-        
+        goalType = .longTerm
+        shortTerm.setDeselectedColor()
+        longTerm.setSelectedColor()
     }
     
     @IBAction func nextBtnPressed(_ sender: Any) {
