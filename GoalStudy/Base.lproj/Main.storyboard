@@ -182,7 +182,7 @@
         <!--Create Goal-->
         <scene sceneID="pb2-A5-Qto">
             <objects>
-                <viewController id="gLp-wj-zPp" customClass="CreateGoal" customModule="GoalStudy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGialVC" id="gLp-wj-zPp" customClass="CreateGoal" customModule="GoalStudy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OoL-wc-mI3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

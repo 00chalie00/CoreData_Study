@@ -24,8 +24,10 @@ class GoalStudy: UIViewController {
 
 
     @IBAction func addGoalBtnPressed(_ sender: Any) {
-        
+        guard let createGialVC = storyboard?.instantiateViewController(withIdentifier: "CreateGialVC") else {return}
+        presentDetail(createGialVC)
     }
+    
 }//End Of The Class
 
 extension GoalStudy: UITableViewDelegate, UITableViewDataSource {
