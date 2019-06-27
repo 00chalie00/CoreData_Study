@@ -21,6 +21,7 @@
 		213C8F5022C21A6E00BF8945 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8F4F22C21A6E00BF8945 /* UIViewControllerExt.swift */; };
 		213C8F5222C3342000BF8945 /* UIViewExtKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8F5122C3342000BF8945 /* UIViewExtKeyboard.swift */; };
 		213C8F5422C3533200BF8945 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8F5322C3533200BF8945 /* UIButtonExt.swift */; };
+		213C8F5622C49F8B00BF8945 /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8F5522C49F8B00BF8945 /* FinishVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		213C8F4F22C21A6E00BF8945 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		213C8F5122C3342000BF8945 /* UIViewExtKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtKeyboard.swift; sourceTree = "<group>"; };
 		213C8F5322C3533200BF8945 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		213C8F5522C49F8B00BF8945 /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				213C8F1422C09F2200BF8945 /* GoalStudy.swift */,
 				213C8F4822C1EB8100BF8945 /* CreateGoal.swift */,
+				213C8F5522C49F8B00BF8945 /* FinishVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				213C8F4722C0A86300BF8945 /* GoalCell.swift in Sources */,
+				213C8F5622C49F8B00BF8945 /* FinishVC.swift in Sources */,
 				213C8F4922C1EB8100BF8945 /* CreateGoal.swift in Sources */,
 				213C8F4B22C1ECE500BF8945 /* GoalType.swift in Sources */,
 				213C8F1522C09F2200BF8945 /* GoalStudy.swift in Sources */,

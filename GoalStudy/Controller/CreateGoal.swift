@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateGoal: UIViewController {
+class CreateGoal: UIViewController, UITextViewDelegate {
 
     
     @IBOutlet weak var textField: UITextView!
@@ -23,6 +23,7 @@ class CreateGoal: UIViewController {
         nextBtn.bindToKeyboard()
         shortTerm.setSelectedColor()
         longTerm.setDeselectedColor()
+        textField.delegate = self
     }
     
     
@@ -43,7 +44,17 @@ class CreateGoal: UIViewController {
     }
     
     @IBAction func nextBtnPressed(_ sender: Any) {
-        
+        if textField.text != "" && textField.text != "What is your Goal" {
+            guard let finishVC = storyboard?.instantiateViewController(withIdentifier: "finishVC") as? FinishVC else { return }
+            presentDetail(finishVC)
+        }
+    }
+    
+    //UITextViewDelegate를 설정 후 optional func를 구현
+    //textfield가 선택 되었을 때 call됨
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        textField.text = ""
+        textField.textColor = UIColor.black
     }
     
 }//End Of The Class
